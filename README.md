@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="./Resources/AppIcon-1024.png" alt="LinkRouter icon" width="72" />
+</p>
+
 # LinkRouter
 
 [![CI](https://github.com/DragarA/link-router/actions/workflows/ci.yml/badge.svg)](https://github.com/DragarA/link-router/actions/workflows/ci.yml)
@@ -6,6 +10,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 
 A lightweight native macOS menu-bar app written in **Swift 6** that registers as your default web browser and routes every clicked link to the right browser—or specific Chromium profile—based on domain and path rules.
+
+![LinkRouter Swift 6 Architecture & URL Dispatch Flow](./docs/architecture.svg)
 
 ## Features
 
